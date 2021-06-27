@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633462346090",
+    "project_id": "learnkannada-1b297",
+    "storage_bucket": "learnkannada-1b297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633462346090:android:46923a41f511a34ee41513",
+        "android_client_info": {
+          "package_name": "com.example.learnkannada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633462346090-bb4ogkk5ut19gn3d0crrenv8jc9g6qhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb8J6_JAsOSC__lETdmYJklJvVbMX5PZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633462346090-bb4ogkk5ut19gn3d0crrenv8jc9g6qhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

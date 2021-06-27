@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sourceLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/sourceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:layout_margin="21dp"
+        android:hint="Text to be translated" />
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:text="Translate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:textSize="21sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Kannada" />
+
+    <TextView
+        android:id="@+id/transatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+</LinearLayout>
