@@ -6,10 +6,16 @@ public class Word {
     private String mDefaultTranslation;
     private int mImageResourceId;
 
+
+    public Word(String DefaultTranslation,String KannadaTranslation,int imageResourceId){
+        mKannadaTranslation = KannadaTranslation;
+        mDefaultTranslation = DefaultTranslation;
+       mImageResourceId = imageResourceId;
+    }
+
     public Word(String DefaultTranslation,String KannadaTranslation){
         mKannadaTranslation = KannadaTranslation;
         mDefaultTranslation = DefaultTranslation;
-//       mImageResourceId = imageResourceId;
     }
 
     /**
