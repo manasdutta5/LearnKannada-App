@@ -3,7 +3,10 @@
 Push failed for origin/master in android studio
 
 resolve using:
-Perform the following steps:
+
+add remote repo path if not already added :  git remote add origin https://github.com/username/repoName.git
+
+then perform the following steps:
 
 git pull
 
